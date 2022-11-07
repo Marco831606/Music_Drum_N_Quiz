@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndroidAppTemplate</string>
+    <string name="play_button1" />
+    <string name="play_button7">play_buttton7</string>
+    <string name="play_button2">play_button2</string>
+    <string name="play_button">play_button1</string>
+    <string name="play_button8">play_button8</string>
+    <string name="play_button9">play_button9</string>
+    <string name="play_button5">play_button5</string>
+    <string name="play_button3">play_button3</string>
+    <string name="play_button6">play_button6</string>
+    <string name="play_button4">play_button4</string>
+    <string name="et_name">et_name</string>
+    <string name="drum_quizz"><![CDATA[Drum & Quizz]]></string>
+    <string name="Name">Name</string>
+    <string name="drum_quizzy"><![CDATA[Drum & Quizz]]></string>
+</resources>
