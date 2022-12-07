@@ -1,19 +1,14 @@
-package com.example.drumpad022.data.mode
+package de.syntaxinstitut.drumpad022.data.model
 
+import com.squareup.moshi.Json
 
- data class Question(
-
+data class Question(
+    @Json(name = "id")
+    val id: String,
+    @Json(name = "correctAnswer")
+    val correctAnswer: String,
+    @Json(name = "question")
     val question: String,
-    val answerOne: String,
-    val answerTwo: String,
-    val answerthree: String,
-    val answerFour: String,
-    val rightAnswer: Int
+    @Json(name = "incorrectAnswers")
+    val incorrectAnswers: List<String>
 )
-
-
-
-
-
-
-

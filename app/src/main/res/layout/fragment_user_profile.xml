@@ -7,7 +7,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/image4">
+        android:background="@drawable/login">
 
         <ImageView
             android:id="@+id/userimage"
@@ -17,6 +17,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/profilepic" />
@@ -27,18 +28,20 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="32dp"
-            android:backgroundTint="@color/black"
+            android:layout_marginBottom="144dp"
+            android:backgroundTint="#7B00A4"
             android:text="Logout"
             android:textColor="#FFFFFF"
             app:cornerRadius="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/txt_name"
             style="@style/TextBoxStyle"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/userimage"
@@ -47,8 +50,10 @@
         <TextView
             android:id="@+id/txt_email"
             style="@style/TextBoxStyle"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.64"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_name"
             tools:text="E-Mail Adresse" />
@@ -57,7 +62,10 @@
             android:id="@+id/txt_phone"
             style="@style/TextBoxStyle"
 
+            android:layout_marginTop="28dp"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_email"
             tools:text="Handynummer" />
@@ -67,16 +75,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="60dp"
             android:gravity="bottom"
             android:text="Dein Highscore"
-            android:textSize="22sp"
+            android:textColor="@color/white"
 
+            android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_phone"
-            app:layout_constraintVertical_bias="0.5"
             tools:ignore="UnknownId">
 
         </TextView>
@@ -88,11 +96,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="bottom"
+            android:textColor="#089AC3"
             app:layout_constraintBottom_toTopOf="@+id/btn_logout"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_name"
+            app:layout_constraintVertical_bias="0.717"
             tools:text="100">
 
 

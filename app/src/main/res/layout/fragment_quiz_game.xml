@@ -11,45 +11,43 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/image4">
-
-        <TextView
-            android:id="@+id/title_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="64dp"
-            android:textColor="@color/white"
-            android:textSize="22sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:background="@drawable/login">
 
 
         <TextView
             android:id="@+id/question_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="152dp"
-            android:layout_marginEnd="24dp"
-            android:textColor="@color/black"
-            android:textSize="34sp"
+            android:layout_marginBottom="24dp"
+            android:textColor="#068EAF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/answer_button1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text=" Was ist ein dreispitz?" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/quiz_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_text"
-            tools:text="Was ist ein dreispitz?" />
+            app:layout_constraintTop_toTopOf="parent" >
+
+        </androidx.recyclerview.widget.RecyclerView>
 
         <Button
             android:id="@+id/answer_button1"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="340dp"
-            android:backgroundTint="@color/black"
-            android:text="A: Ein Hut"
+            android:layout_marginBottom="384dp"
+            android:backgroundTint="#BA55FB"
             app:cornerRadius="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
@@ -57,8 +55,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:backgroundTint="@color/black"
-            android:text="B: Ein Gebäck"
+            android:backgroundTint="#015EA1"
             app:cornerRadius="50dp"
             app:layout_constraintEnd_toEndOf="@+id/answer_button1"
             app:layout_constraintStart_toStartOf="@+id/answer_button1"
@@ -69,8 +66,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:backgroundTint="@color/black"
-            android:text="C: Ein Werkzeug"
+            android:backgroundTint="#40C4FF"
             app:cornerRadius="50dp"
             app:layout_constraintEnd_toEndOf="@+id/answer_Button2"
             app:layout_constraintHorizontal_bias="0.0"
@@ -82,8 +78,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:backgroundTint="@color/black"
-            android:text="D: Ein Sternbild"
+            android:backgroundTint="#1B0378"
             app:cornerRadius="50dp"
             app:layout_constraintEnd_toEndOf="@+id/answer_button3"
             app:layout_constraintHorizontal_bias="0.0"
@@ -96,23 +91,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:text="Frage 1 von 10"
-            android:textColor="@color/black"
+            android:textColor="#511883"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="372dp"
-            android:layout_height="193dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="24dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/app_logo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

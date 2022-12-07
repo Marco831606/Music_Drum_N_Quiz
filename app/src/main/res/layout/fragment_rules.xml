@@ -7,32 +7,40 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/image4"
-        android:orientation="vertical">
+        android:background="@drawable/login"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
 
         <ImageView
             style="@style/ImageStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="174dp"
+            android:layout_height="242dp"
             android:adjustViewBounds="true"
 
             android:alpha="0.9"
             android:src="@drawable/app_logo"
+            tools:layout_conversion_absoluteHeight="174dp"
+            tools:layout_conversion_absoluteWidth="188dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
             tools:srcCompat="@drawable/app_logo" />
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+
 
             <TextView
                 style="@style/MediumTextStyle"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/aclonica"
-                android:text="Hallo und Herzlich Willkommen zum Music Drum N Quiz. Hier kannst du Quizzen und mit einem Drumpad Musik machen.Bevor du mit dem Drumpad spielen kannst musst du zuvor beim Quiz 10 fragen richtig beantworten, ich wünsche dir Viel Glück und viel Spaß.">
+                android:fontFamily="@font/roboto"
+                android:text="Hallo und Herzlich Willkommen zum Music Drum N Quiz. Hier kannst du Quizzen und mit einem Drumpad Musik machen.Bevor du mit dem Drumpad spielen kannst musst du zuvor beim Quiz 10 fragen richtig beantworten, ich wünsche dir Viel Glück und viel Spaß."
+                android:textColor="#2B9FB5"
+                tools:layout_conversion_absoluteHeight="174dp"
+                tools:layout_editor_absoluteY="206dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_conversion_absoluteWidth="379dp">
 
             </TextView>
-        </ScrollView>
+
 
 
     </LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456152248675",
+    "project_id": "musicdrumnquiz",
+    "storage_bucket": "musicdrumnquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456152248675:android:ea21afef6fdff02a966356",
+        "android_client_info": {
+          "package_name": "de.syntaxinstitut.drumpad022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456152248675-ru9grfgmsdvbs9dqk4esq5kaqrhfb4lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdgT6gFOEPZuCOm-ZYFjxDpPWvbI-T3aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456152248675-ru9grfgmsdvbs9dqk4esq5kaqrhfb4lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
